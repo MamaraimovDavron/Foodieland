@@ -1,22 +1,11 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  border: 1px solid;
-  display: flex;
-  flex-direction: column;
-}
-.container .header {
+.header {
   gap: 150px;
 }
-.container .header .title {
+.header .title {
   display: flex;
   flex-direction: row;
 }
-.container .header .title a {
+.header .title a {
   text-decoration: none;
   font-family: "Lobster", cursive;
   width: 130px;
@@ -28,10 +17,10 @@
   line-height: 30px;
   color: #000000;
 }
-.container .header .title a b {
+.header .title a b {
   color: #FF7426;
 }
-.container .header .menu {
+.header .menu {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -42,10 +31,10 @@
   position: relative;
   top: 10px;
 }
-.container .header .menu li {
+.header .menu li {
   list-style: none;
 }
-.container .header .menu li a {
+.header .menu li a {
   text-decoration: none;
   width: 45px;
   height: 19px;
@@ -57,24 +46,25 @@
   letter-spacing: -0.02em;
   color: #000000;
 }
-.container .header .social-network {
+.header .social-network {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   gap: 40px;
 }
-.container .header .social-network a {
+.header .social-network a {
   text-decoration: none;
   color: black;
   font-size: 20px;
 }
-.container .row {
+
+.row {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.container .row .col-5 {
+.row .col-5 {
   width: 610px;
   height: 640px;
   background-image: url("../assets/box-one/Rectangle 1 (1).png");
@@ -84,7 +74,7 @@
   justify-content: space-evenly;
   padding: 50px;
 }
-.container .row .col-5 .hot-recipes {
+.row .col-5 .hot-recipes {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -95,7 +85,7 @@
   background-color: #FFFFFF;
   border-radius: 30px;
 }
-.container .row .col-5 .hot-recipes a {
+.row .col-5 .hot-recipes a {
   text-decoration: none;
   width: 79px;
   height: 17px;
@@ -108,7 +98,7 @@
   letter-spacing: -0.02em;
   color: #000000;
 }
-.container .row .col-5 h1 {
+.row .col-5 h1 {
   width: 520px;
   height: 154px;
   font-family: "Inter";
@@ -119,7 +109,7 @@
   letter-spacing: -0.04em;
   color: #000000;
 }
-.container .row .col-5 p {
+.row .col-5 p {
   width: 530px;
   height: 56px;
   font-family: "Inter";
@@ -129,13 +119,13 @@
   line-height: 28px;
   color: rgba(0, 0, 0, 0.6);
 }
-.container .row .col-5 .watch-fork {
+.row .col-5 .watch-fork {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 20px;
 }
-.container .row .col-5 .watch-fork .minutes {
+.row .col-5 .watch-fork .minutes {
   width: 139px;
   height: 40px;
   background-color: rgba(0, 0, 0, 0.05);
@@ -146,11 +136,11 @@
   justify-content: center;
   gap: 10px;
 }
-.container .row .col-5 .watch-fork .minutes a {
+.row .col-5 .watch-fork .minutes a {
   font-size: 18px;
   color: black;
 }
-.container .row .col-5 .watch-fork .minutes h4 {
+.row .col-5 .watch-fork .minutes h4 {
   width: 73px;
   height: 17px;
   font-family: "Inter";
@@ -162,7 +152,7 @@
   letter-spacing: -0.02em;
   color: rgba(0, 0, 0, 0.6);
 }
-.container .row .col-5 .watch-fork .chicken {
+.row .col-5 .watch-fork .chicken {
   width: 119px;
   height: 40px;
   background-color: rgba(0, 0, 0, 0.05);
@@ -173,12 +163,12 @@
   justify-content: center;
   gap: 10px;
 }
-.container .row .col-5 .watch-fork .chicken a {
+.row .col-5 .watch-fork .chicken a {
   text-decoration: none;
   color: black;
   font-size: 18px;
 }
-.container .row .col-5 .watch-fork .chicken h4 {
+.row .col-5 .watch-fork .chicken h4 {
   width: 53px;
   height: 17px;
   font-family: "Inter";
@@ -189,31 +179,31 @@
   letter-spacing: -0.02em;
   color: rgba(0, 0, 0, 0.6);
 }
-.container .row .col-5 .johnSmith {
+.row .col-5 .johnSmith {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   gap: 150px;
 }
-.container .row .col-5 .johnSmith .img-text {
+.row .col-5 .johnSmith .img-text {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   gap: 10px;
 }
-.container .row .col-5 .johnSmith .img-text img {
+.row .col-5 .johnSmith .img-text img {
   width: 50px;
   height: 50px;
 }
-.container .row .col-5 .johnSmith .img-text .text {
+.row .col-5 .johnSmith .img-text .text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
-.container .row .col-5 .johnSmith .img-text .text h3 {
+.row .col-5 .johnSmith .img-text .text h3 {
   width: 86px;
   height: 19px;
   font-family: "Inter";
@@ -224,7 +214,7 @@
   letter-spacing: -0.02em;
   color: #000000;
 }
-.container .row .col-5 .johnSmith .img-text .text h4 {
+.row .col-5 .johnSmith .img-text .text h4 {
   width: 97px;
   height: 17px;
   font-family: "Inter";
@@ -236,7 +226,7 @@
   letter-spacing: -0.02em;
   color: rgba(0, 0, 0, 0.6);
 }
-.container .row .col-5 .johnSmith .play-btn {
+.row .col-5 .johnSmith .play-btn {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -246,7 +236,7 @@
   background-color: #000000;
   border-radius: 16px;
 }
-.container .row .col-5 .johnSmith .play-btn a {
+.row .col-5 .johnSmith .play-btn a {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -263,13 +253,55 @@
   letter-spacing: -0.02em;
   color: #FFFFFF;
 }
-.container .row .col-5 .johnSmith .play-btn a i {
+.row .col-5 .johnSmith .play-btn a i {
   font-size: 18px;
 }
-.container .row .col-6 {
+.row .col-6 {
   width: 602px;
   height: 640px;
   background-color: #FF7426;
   background-image: url("../assets/box-one/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png");
   border-radius: 0px 50px 50px 0px;
+  position: relative;
+}
+.row .col-6 .center-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: -70px;
+  top: 50px;
+  background-image: url("../../assets/box-one/[Linked] Ellipse 3.png");
+}
+.row .col-6 .center-circle .thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-image: url("../../assets/box-one/[Linked] Ellipse 4.png");
+}
+.row .col-6 .center-circle .thumb:hover {
+  transform: scale(1.13);
+  transition: 0.4s;
+}
+.row .col-6 .center-circle .thumb img {
+  width: 50px;
+  height: 50px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
