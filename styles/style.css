@@ -148,7 +148,6 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 25px;
-  /* identical to box height */
   letter-spacing: -0.02em;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -252,6 +251,10 @@
   line-height: 17px;
   letter-spacing: -0.02em;
   color: #FFFFFF;
+}
+.row .col-5 .johnSmith .play-btn a:hover i {
+  transform: rotate(180deg);
+  transition: 0.8s;
 }
 .row .col-5 .johnSmith .play-btn a i {
   font-size: 18px;

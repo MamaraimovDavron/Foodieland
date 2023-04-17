@@ -167,8 +167,6 @@
                     font-weight: 500;
                     font-size: 14px;
                     line-height: 25px;
-                    /* identical to box height */
-                    
                     letter-spacing: -0.02em;
                     
                     color: rgba(0, 0, 0, 0.6);
@@ -284,6 +282,11 @@
                     line-height: 17px;
                     letter-spacing: -0.02em;
                     color: #FFFFFF;
+
+                    &:hover i{
+                        transform: rotate(180deg);
+                        transition: 0.8s;
+                    }
                     i{
                         font-size: 18px;
                     }
@@ -311,7 +314,7 @@
             left: -70px;
             top: 50px;
             background-image: url('../../assets/box-one/[Linked]\ Ellipse\ 3.png');
-            
+
             .thumb{
                 display: flex;
                 flex-direction: column;
