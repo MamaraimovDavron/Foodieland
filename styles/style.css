@@ -1,1 +1,70 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container .header {
+  gap: 150px;
+}
+.container .header .title {
+  display: flex;
+  flex-direction: row;
+}
+.container .header .title a {
+  text-decoration: none;
+  font-family: "Lobster", cursive;
+  width: 130px;
+  height: 30px;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+.container .header .title a b {
+  color: #FF7426;
+}
+.container .header .menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 505px;
+  height: 19px;
+  gap: 30px;
+  position: relative;
+  top: 10px;
+}
+.container .header .menu li {
+  list-style: none;
+}
+.container .header .menu li a {
+  text-decoration: none;
+  width: 45px;
+  height: 19px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.container .header .social-network {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+}
+.container .header .social-network a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
