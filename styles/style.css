@@ -5,6 +5,7 @@
 }
 
 .container {
+  border: 1px solid;
   display: flex;
   flex-direction: column;
 }
@@ -67,4 +68,208 @@
   text-decoration: none;
   color: black;
   font-size: 20px;
+}
+.container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container .row .col-5 {
+  width: 610px;
+  height: 640px;
+  background-image: url("../assets/box-one/Rectangle 1 (1).png");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.container .row .col-5 .hot-recipes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 156px;
+  height: 45px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+.container .row .col-5 .hot-recipes a {
+  text-decoration: none;
+  width: 79px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.container .row .col-5 h1 {
+  width: 520px;
+  height: 154px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+.container .row .col-5 p {
+  width: 530px;
+  height: 56px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.container .row .col-5 .watch-fork {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.container .row .col-5 .watch-fork .minutes {
+  width: 139px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container .row .col-5 .watch-fork .minutes a {
+  font-size: 18px;
+  color: black;
+}
+.container .row .col-5 .watch-fork .minutes h4 {
+  width: 73px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.container .row .col-5 .watch-fork .chicken {
+  width: 119px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container .row .col-5 .watch-fork .chicken a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.container .row .col-5 .watch-fork .chicken h4 {
+  width: 53px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.container .row .col-5 .johnSmith {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 150px;
+}
+.container .row .col-5 .johnSmith .img-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.container .row .col-5 .johnSmith .img-text img {
+  width: 50px;
+  height: 50px;
+}
+.container .row .col-5 .johnSmith .img-text .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container .row .col-5 .johnSmith .img-text .text h3 {
+  width: 86px;
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.container .row .col-5 .johnSmith .img-text .text h4 {
+  width: 97px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.container .row .col-5 .johnSmith .play-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  background-color: #000000;
+  border-radius: 16px;
+}
+.container .row .col-5 .johnSmith .play-btn a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  width: 118px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+.container .row .col-5 .johnSmith .play-btn a i {
+  font-size: 18px;
+}
+.container .row .col-6 {
+  width: 602px;
+  height: 640px;
+  background-color: #FF7426;
+  background-image: url("../assets/box-one/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png");
+  border-radius: 0px 50px 50px 0px;
 }/*# sourceMappingURL=style.css.map */
