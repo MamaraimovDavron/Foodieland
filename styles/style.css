@@ -297,6 +297,221 @@
   height: 50px;
 }
 
+.box-two {
+  gap: 100px;
+}
+.box-two .categories h1 {
+  width: 238px;
+  height: 58px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+.box-two .categories span {
+  width: 200px;
+  height: 60px;
+  background-color: #E7FAFE;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-two .categories span h3 {
+  width: 146px;
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  cursor: pointer;
+}
+.box-two .vegetable-imgs {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.box-two .vegetable-imgs .breakfast {
+  width: 180px;
+  height: 152px;
+  background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.box-two .vegetable-imgs .breakfast img {
+  position: absolute;
+  top: -40px;
+}
+.box-two .vegetable-imgs .breakfast h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 81px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.box-two .vegetable-imgs .vegan {
+  width: 180px;
+  height: 152px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+}
+.box-two .vegetable-imgs .vegan img {
+  position: absolute;
+  top: -40px;
+}
+.box-two .vegetable-imgs .vegan h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 81px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.box-two .vegetable-imgs .meat {
+  width: 180px;
+  height: 152px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+}
+.box-two .vegetable-imgs .meat img {
+  position: absolute;
+  top: -40px;
+}
+.box-two .vegetable-imgs .meat h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 81px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.box-two .vegetable-imgs .dessert {
+  width: 180px;
+  height: 152px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+}
+.box-two .vegetable-imgs .dessert img {
+  position: absolute;
+  top: -40px;
+}
+.box-two .vegetable-imgs .dessert h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 81px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.box-two .vegetable-imgs .lunch {
+  width: 180px;
+  height: 152px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+.box-two .vegetable-imgs .lunch img {
+  position: absolute;
+  top: -40px;
+}
+.box-two .vegetable-imgs .lunch h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 81px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.box-two .vegetable-imgs .chocolate {
+  width: 180px;
+  height: 152px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+.box-two .vegetable-imgs .chocolate img {
+  position: absolute;
+  top: -40px;
+}
+.box-two .vegetable-imgs .chocolate h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 81px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -304,7 +519,6 @@
 }
 
 .container {
-  border: 1px solid;
   display: flex;
   flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
