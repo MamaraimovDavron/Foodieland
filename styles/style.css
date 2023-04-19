@@ -1214,10 +1214,11 @@
   height: 400.08px;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 6px;
 }
 .box-seven .inbox .left-img img {
   width: 100%;
+  border-radius: 50px;
 }
 .box-seven .inbox .text-inbox {
   margin: auto;
@@ -1318,6 +1319,111 @@
 }
 .box-seven .inbox .right-img img {
   border-radius: 50px;
+}
+
+.footer {
+  flex-direction: row;
+  width: 100%;
+  padding-top: 160px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.footer .left-side {
+  width: 50%;
+}
+.footer .left-side .text {
+  display: flex;
+  flex-direction: column;
+}
+.footer .left-side .text h3 {
+  width: 110px;
+  height: 30px;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+.footer .left-side .text h3 b {
+  color: #FF7426;
+}
+.footer .left-side .text p {
+  width: 400px;
+  height: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .right-side {
+  width: 50%;
+}
+.footer .right-side .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .right-side .menu li {
+  list-style: none;
+}
+.footer .right-side .menu li a {
+  text-decoration: none;
+  width: 59px;
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.footer-copyrights {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.footer-copyrights .copy {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.footer-copyrights .copy p {
+  width: 336px;
+  height: 23px;
+  font-family: "Eudoxus Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer-copyrights .copy p .orange {
+  color: #FF7967;
+}
+.footer-copyrights .social-networks {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 30px;
+}
+.footer-copyrights .social-networks a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
 
 * {

@@ -15,9 +15,10 @@
             height: 400.08px;
             position: absolute;
             left: 0;
-            bottom: 0;
+            bottom: 6px;
             img{
                 width: 100%;
+                border-radius: 50px;
             }
         }
 
@@ -120,7 +121,7 @@
             bottom: 100px;
             transform: rotate(-15deg);
         }
-        
+
         .right-img{
             width: 355.07px;
             height: 355.62px;
